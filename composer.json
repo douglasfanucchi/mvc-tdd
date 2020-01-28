@@ -1,0 +1,14 @@
+{
+    "name": "mvc-tdd",
+    "description": "Estrutura MVC criada com TDD",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controllers\\":"controllers",
+            "Models\\": "models",
+            "Core\\": "core"
+        }
+    }
+}

@@ -2,7 +2,8 @@
     "name": "mvc-tdd",
     "description": "Estrutura MVC criada com TDD",
     "require": {
-        "phpunit/phpunit": "^8.5"
+        "phpunit/phpunit": "^8.5",
+        "guzzlehttp/guzzle": "~6.0"
     },
     "autoload": {
         "psr-4": {
